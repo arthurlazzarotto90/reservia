@@ -83,6 +83,70 @@ body {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
    }
- 
-   
 
+
+.bloc7 {
+  width: 250px;
+
+
+
+}
+ .act {
+     flex-direction: column;
+    
+ }
+ .activites1 {
+    width: 390px;
+    height: 250px;
+    margin-bottom: 25px;
+ }
+
+ .activites2 {
+    width: 390px;
+    height: 250px;
+    margin-bottom: 25px;
+ }
+   
+ .activites3 {
+    width: 390px;
+    height: 250px;
+    margin-bottom: 25px;
+    margin-top: 150px;
+ }
+ .activites4 {
+    width: 390px;
+    height: 250px;
+    margin-bottom: 25px;
+ }
+ .activites5 {
+    width: 390px;
+    height: 250px;
+    margin-bottom: 25px;
+    
+ }
+ .activites6 {
+    width: 390px;
+    height: 250px;
+    margin-bottom: 25px;
+ }
+ .image2 {
+  width: 390px;
+  height: 200px;
+  object-fit: cover;  
+ }
+
+ .image4 {
+    width: 390px;
+    height: 200px;
+    object-fit: cover;  
+   }
+   .image3 {
+    width: 390px;
+    height: 200px;
+    object-fit: cover;   
+   }
+   .image5 {
+    width: 390px;
+    height: 200px;
+    object-fit: cover;  
+   }

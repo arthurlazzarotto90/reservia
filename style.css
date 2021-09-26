@@ -232,6 +232,7 @@
       height: 170px;
       border-top-left-radius: 25px;
       border-top-right-radius: 25px;
+      object-fit: cover;
   }
 
 
@@ -317,6 +318,7 @@
      margin-right: 15px;
      border-bottom-left-radius: 25px;
      border-top-left-radius: 25px;
+     object-fit: cover;
      
  }
  .container1 {
@@ -330,7 +332,7 @@
  
  .icone4 { 
      display: flex;
-     color: rgb(5, 67, 201);
+     color: rgb(25, 25, 240);
  }
  .icone5 {
      
@@ -338,7 +340,7 @@
  }
 
  .bloc7 {
-  background-color: aqua;
+ 
   height: 400PX;
   width: 1300px;
   margin-top: 100px;
@@ -346,12 +348,92 @@
  }
 
  .activites {
-     background-color: rgb(255, 60, 0);
-     height: 50px;
-     width: 50px;
+    height: 440px;
+    
+     
+     
+     
  }
  .activites1 {
-    background-color: rgb(89, 0, 255);
-    height: 25px;
-    width: 25px;
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   border-radius: 25px;
+   height: 230px;
+
+  
+   
+   
+    
 }
+.activites6 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px;
+    
+} 
+.activites3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px;
+    
+} 
+p {
+    margin-left: 15px;
+   
+}
+.activites4 {
+   
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+
+}
+.activites5 {
+    
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+.activites2 {
+    
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px;
+    height: 160px;
+}
+.act {
+    display: flex;
+    justify-content: space-between;
+}
+.image2 {
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+ width: 250px;
+ height: 390px;
+ object-fit: cover;
+}
+.image3 {
+    border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+ width: 250px;
+ height: 150px;
+
+}
+.image4 {
+    border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+ width: 250px;
+ height: 180px;
+ object-fit: cover;
+}
+.image5 {
+    border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+ width: 250px;
+ height: 110px;
+ object-fit: cover;
+}
+
+
+
