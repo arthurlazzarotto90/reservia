@@ -1,3 +1,5 @@
+
+/* tete de page */
 .logo {
     width: 150px;
     height: 100px;
@@ -49,6 +51,7 @@
     font-family: sans-serif;
     color: rgba(63, 62, 62, 0.39);
 } 
+/* bare de recherche */
 .icone1 {
     background-color:rgb(222, 224, 224);
     border-bottom-left-radius: 10px;
@@ -95,7 +98,7 @@
     
     } 
 
-
+/* filtre */
   .filtre {
       display: flex;
       justify-content: flex-start;  
@@ -136,10 +139,10 @@
    
    
     }
- .wrap1{
+ 
    
     
-    } 
+    
     .icone2 {
         background-color:rgba(100, 140, 194, 0.363);
        border-radius: 100%;
@@ -206,7 +209,7 @@
         justify-content: space-evenly;
        
     }
-
+ /*bloc 1 bloc 2*/
     
   .bloc1 {
       background-color: rgb(233, 231, 231);
@@ -226,7 +229,7 @@
 
 
   }
-
+ 
   .image {
      
       height: 170px;
@@ -347,6 +350,7 @@
   
  }
 
+/*bloc3*/
  .activites {
     height: 440px;
     
@@ -435,5 +439,8 @@ p {
  object-fit: cover;
 }
 
+
+
+/*bas de page*/
 
 
