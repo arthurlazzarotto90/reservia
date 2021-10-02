@@ -1,9 +1,6 @@
-body {
-    width: auto;
-    
-    
-    
 
+ .row {
+     width: 950px;
  }
 .liste {
  flex-direction: column-reverse; 
@@ -85,12 +82,9 @@ body {
    }
 
 
-.bloc7 {
-  width: 250px;
-
-
-
-}
+    .bloc7 {
+        width: 390px;
+    }
  .act {
      flex-direction: column;
     
@@ -154,7 +148,7 @@ body {
       margin: 0px;
       margin-top: 150px;
       width: 100%;
-      height: 150px;
+      height: 500px;
       background-color: rgba(179, 173, 173, 0.363);
   }
   
