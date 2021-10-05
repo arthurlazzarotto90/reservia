@@ -1,0 +1,416 @@
+body {
+    margin: 0px;
+}
+/* titre */
+.logo {
+   height: 90px;
+   width: 100px;
+   margin-left: 5%;
+}
+.actif {
+    margin-top: 15px;
+}
+/*
+.entete {
+  
+ }
+ . {
+     display: grid;
+     grid-template-columns: 50% 50%;
+    text-align: center; 
+ } */
+ .element {
+     margin-top: 15px;
+     padding: 25px;
+     color: rgb(14, 135, 248);
+     font-family: sans-serif;
+     text-decoration:none;
+  
+ }
+ .bande {
+     width:105%;
+     height: 2px;
+     background-color:rgb(14, 135, 248) ;
+
+ }
+ /* navi */
+ .trouve {
+    font-family: sans-serif;
+    text-align: center;
+ }
+ .en { 
+ font-family: sans-serif;
+ color: rgba(0, 0, 0, 0.671);
+ text-align: center;
+  }
+/* bare de recheche */
+  .icone1 {
+    background-color:rgb(222, 224, 224);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 40px;
+    width: 40px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+
+
+    
+    }
+ .searchTerm {
+    width: 100%;
+    border: 2px solid rgb(214, 213, 213);
+    border-right: none;
+    padding: 8px;
+    height: 20px;
+    outline: none;
+    }
+ 
+ .searchButton {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #0b43bb;
+    background: #0b43bb;
+    text-align: left;
+    color: #eeeeee;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+    text-align: center;
+    }
+ .wrap{
+    width: 95%;
+    margin: 3%;
+  
+  
+
+  
+   
+    } 
+/* filtre  */ 
+
+.fil { 
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin: 5%;
+  
+  
+
+}
+
+
+/* position bouton */
+
+.resolu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 5%;
+}
+
+   
+  
+
+
+.wrap1 {
+ margin-top: 5%;
+ margin-left: 5%;
+}
+
+/* style bouton */
+
+
+.search1 {
+  display: flex;
+  justify-content: flex-start ;
+
+
+  
+  }
+
+  
+.searchButton1 {
+  width: 210px;
+  height: 40px;
+  border: 1px solid #b4b4b459;
+  background: #fdfdfd;
+  text-align:center;
+  color: #000000e5;
+  border-radius: 50px 50px 50px 50px;
+  font-size: 15px;
+  margin-right: 10px;
+  
+  
+ 
+ 
+  }
+
+ 
+  
+  
+  .icone2 {
+      background-color:rgba(100, 140, 194, 0.363);
+     border-radius: 100%;
+      height: 40px;
+      width: 40px;
+      color: rgb(4, 48, 168);
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     position: absolute;
+     
+     
+  }
+ /* info */ 
+ /* postion info */
+ .parti4 {
+  display: flex;
+  justify-content: space-around;
+
+  
+   margin-top: 30px;
+ 
+
+}
+
+/* style info */
+.info {
+    background-color:rgba(253, 253, 253, 0.363);
+   border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    color: rgb(4, 48, 168);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid #b4b4b459;
+   margin-left: 15%;
+   margin-top: 15px;
+  
+   
+   
+}
+
+
+
+.para {
+   margin-left: 2%;
+    font-family: sans-serif;
+    color: rgb(194, 191, 191);
+}
+
+
+.loge {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+   
+    
+    
+}
+/* bloc1 */ 
+.bloc1 {
+    width: 105%;
+    height: 750px;
+    background-color: rgb(233, 231, 231);
+    margin-top: 15px;
+   
+}
+.sousitre2 { 
+    margin-left: 30px;
+    font-family: sans-serif;
+     }
+
+.soutitre3 {
+    display: grid;
+    grid-template-columns: 90% 10% ;
+   
+}   
+.cartouche {
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: 2%;
+ 
+  
+}
+
+.icone3 {
+    margin-top: 25px;
+} 
+ 
+/* card1*/
+
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 200px;
+    width: 320px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3rem;
+    margin-bottom: 15px;
+    display: flex;
+    margin-left: 2%;
+ 
+    
+   
+}
+
+ .image1 {
+     border-bottom-left-radius: 25px;
+     border-top-left-radius: 25px;
+     object-fit: cover;
+     margin-right: 25px;
+     width: 150px;
+
+ }
+ .bi  {
+    color: rgb(4, 48, 168);
+ }
+ .bi1 {
+
+    color: rgba(63, 63, 63, 0.363);
+ }
+ .icone4 {
+     margin-top:80px;
+
+ }
+
+/* bloc2 */
+
+
+
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 270px;
+    width: 320px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3rem;
+    margin-bottom: 15px;
+    margin-left: 2%;
+  
+ 
+    
+   
+}
+
+
+ .image2 {
+     border-top-right-radius: 25px;
+     border-top-left-radius: 25px;
+     object-fit: cover;
+   
+     width: 320px;
+     height: 150px;
+
+ }
+ .bi  {
+    color: rgb(4, 48, 168);
+ }
+
+ .container2 {
+    margin-left: 5%;
+ }
+
+ .cartouche1 {
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 2%;
+ 
+ }
+
+ .affiche {
+    margin-top: 15px;
+     padding: 25px;
+     color: #070707;
+     font-family: sans-serif;
+     text-decoration:none;
+     
+ }
+ h3 {
+     margin-left: 5%;
+ }
+
+ /* activiter */ 
+
+ .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 150px;
+    width: 320px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3rem;
+    margin-bottom: 20px;
+  
+ 
+    
+   
+}
+
+
+ .image3 {
+     border-top-right-radius: 25px;
+     border-top-left-radius: 25px;
+     object-fit: cover;
+   
+     width: 320px;
+     height: 100px;
+
+ }
+ .cartouche3 {
+     margin-left: 2%;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .card3 {
+     margin-left: 2%;
+ }
+
+ .container3 {
+     margin-left: 2%;
+ }
+
+ /* base de page */ 
+
+ .fin_de_page {
+    background-color: rgb(233, 231, 231);
+    height: 520px;
+    width: 105%;
+   
+    
+ }
+ .propo {
+     display: flex;
+     flex-direction: column;
+    margin: 5%;
+ }
+
+ a {
+     color: rgb(129, 122, 122);
+    font-family: sans-serif;
+    text-decoration:none;
+     margin: 1%;
+ }
+ h4 {
+    font-family: sans-serif;
+ }
+ 
+
+ 
+     
+      
+      
+
