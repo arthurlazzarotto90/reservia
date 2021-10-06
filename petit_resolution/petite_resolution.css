@@ -5,30 +5,38 @@ body {
 .logo {
    height: 90px;
    width: 100px;
-   margin-left: 5%;
+   
 }
 .actif {
-    margin-top: 15px;
+   
 }
-/*
-.entete {
+.logo1 {
+   display: grid;
+   grid-template-columns: 80% 20%;
+}
+.ins {
+    margin-top: 20px;
+   
+}
+.heber {
+   display: flex;
+   justify-content: space-evenly;
+  margin-top: 30px;
+    
   
- }
- . {
-     display: grid;
-     grid-template-columns: 50% 50%;
-    text-align: center; 
- } */
+
+}
+
  .element {
      margin-top: 15px;
-     padding: 25px;
+     
      color: rgb(14, 135, 248);
      font-family: sans-serif;
      text-decoration:none;
   
  }
  .bande {
-     width:105%;
+     width:102%;
      height: 2px;
      background-color:rgb(14, 135, 248) ;
 
@@ -44,57 +52,14 @@ body {
  text-align: center;
   }
 /* bare de recheche */
-  .icone1 {
-    background-color:rgb(222, 224, 224);
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    height: 40px;
-    width: 40px;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-   
-}
-
-.search {
-    display: flex;
-    justify-content: center;
-
-
-    
-    }
- .searchTerm {
-    width: 100%;
-    border: 2px solid rgb(214, 213, 213);
-    border-right: none;
-    padding: 8px;
-    height: 20px;
-    outline: none;
-    }
  
- .searchButton {
-    width: 150px;
-    height: 40px;
-    border: 1px solid #0b43bb;
-    background: #0b43bb;
-    text-align: left;
-    color: #eeeeee;
-    border-radius: 0 10px 10px 0;
-    font-size: 15px;
-    text-align: center;
-    }
- .wrap{
-    width: 95%;
-    margin: 3%;
-  
-  
-
-  
-   
-    } 
+    
 /* filtre  */ 
 
+.resolu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .fil { 
     font-family: sans-serif;
     margin-top: 50px;
@@ -105,120 +70,25 @@ body {
 }
 
 
-/* position bouton */
-
-.resolu {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-left: 5%;
-}
-
-   
-  
-
-
-.wrap1 {
- margin-top: 5%;
- margin-left: 5%;
-}
-
-/* style bouton */
-
-
-.search1 {
-  display: flex;
-  justify-content: flex-start ;
-
-
-  
-  }
-
-  
-.searchButton1 {
-  width: 210px;
-  height: 40px;
-  border: 1px solid #b4b4b459;
-  background: #fdfdfd;
-  text-align:center;
-  color: #000000e5;
-  border-radius: 50px 50px 50px 50px;
-  font-size: 15px;
-  margin-right: 10px;
-  
-  
- 
- 
-  }
-
- 
-  
-  
-  .icone2 {
-      background-color:rgba(100, 140, 194, 0.363);
-     border-radius: 100%;
-      height: 40px;
-      width: 40px;
-      color: rgb(4, 48, 168);
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     align-items: center;
-     position: absolute;
-     
-     
-  }
- /* info */ 
- /* postion info */
- .parti4 {
-  display: flex;
-  justify-content: space-around;
-
-  
-   margin-top: 30px;
- 
-
-}
-
-/* style info */
-.info {
-    background-color:rgba(253, 253, 253, 0.363);
-   border-radius: 100%;
-    height: 30px;
-    width: 30px;
-    color: rgb(4, 48, 168);
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-   border: 1px solid #b4b4b459;
-   margin-left: 15%;
-   margin-top: 15px;
-  
-   
-   
-}
-
-
-
-.para {
-   margin-left: 2%;
-    font-family: sans-serif;
-    color: rgb(194, 191, 191);
-}
-
-
-.loge {
+ .search1 {
+     margin-top: 10px;
+    margin-left: 1%; 
+ }
+ .romen {
     display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    
-   
-    
-    
-}
+    flex-wrap: wrap;
+    flex-direction: column;
+       
+        
+   }
+
+  .searchButton1 {
+      width: 15px;
+  }
+
 /* bloc1 */ 
 .bloc1 {
-    width: 105%;
+    width: 102%;
     height: 750px;
     background-color: rgb(233, 231, 231);
     margin-top: 15px;
@@ -388,7 +258,7 @@ body {
  .fin_de_page {
     background-color: rgb(233, 231, 231);
     height: 520px;
-    width: 105%;
+    width: 102%;
    
     
  }

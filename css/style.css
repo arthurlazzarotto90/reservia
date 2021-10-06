@@ -1,24 +1,29 @@
 
  /* titre */
  .logo {
-     width: 150px;
-     height: 100px;
+     width: 100px;
+     height: 50px;
     
      
  } 
- .caca {display:flex;
- flex-wrap: wrap;
- margin-top: 3%;
-}
+
 
  .entete {
-    display: flex;
-    justify-content: space-between;
+  
+ }
+ .ins
+ { 
+     display: flex;
+     
+ }
+ .heber{
+   
+   
 
  }
  .element {
     margin-top: 15px;
-    padding: 25px;
+    
     color: rgb(14, 135, 248);
     font-family: sans-serif;
     text-decoration:none;
@@ -34,7 +39,6 @@
      }
 
  /* bare de recheche */ 
- 
  .icone1 {
     background-color:rgb(222, 224, 224);
     border-bottom-left-radius: 10px;
@@ -75,37 +79,47 @@
     font-size: 15px;
     text-align: center;
     }
- .wrap{
-    width: 350px;
-   
-   
-    } 
+    .wrap {
+    width: 95%;
+     margin-left: 12px;
+    
+     } 
 
    /* filtre  */ 
 
 .fil { 
     font-family: sans-serif;
     margin-top: 50px;
+    
    
 
 } 
  
 
 /* position bouton */
-
+.dispal {
+ display: flex;
+  flex-wrap: wrap;
+   
+    }
 .resolu {
     display: grid;
     grid-template-columns: 50% 50%;
+   
+    
  
   
 }
 .romen {
- 
+ display: flex;
+ flex-wrap: wrap;
+ margin-bottom: 0px;
 
  
 }
 .wrap1 {
- margin-top: 5%;
+ 
+
 }
 
 /* style bouton */
@@ -121,7 +135,7 @@
 
   
 .searchButton1 {
-  width: 210px;
+  width: 175px;
   height: 40px;
   border: 1px solid #b4b4b459;
   background: #fdfdfd;
@@ -134,6 +148,19 @@
   
  
  
+  }
+
+  .searchButton2 {
+    width: 220px;
+    height: 40px;
+    border: 1px solid #b4b4b459;
+    background: #fdfdfd;
+    text-align:center;
+    color: #000000e5;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 15px;
+    margin-right: 10px;
+    
   }
 
  
@@ -172,8 +199,8 @@
      flex-direction: column;
      align-items: center;
      border: 1px solid #b4b4b459;
-     margin-left: 15%;
-    margin-top: 15px;
+     margin-left: 5%;
+    margin-top: 5px;
      margin-right: 15px;
      
   }
@@ -181,7 +208,7 @@
   
   
   .para {
-     margin-left: 2%;
+   
       font-family: sans-serif;
       color: rgb(194, 191, 191);
   }
