@@ -3,7 +3,7 @@ body {
 }
 /* titre */
 .logo {
-   height: 90px;
+   height: 70px;
    width: 100px;
    
 }
@@ -22,6 +22,7 @@ body {
    display: flex;
    justify-content: space-evenly;
   margin-top: 30px;
+  margin-left: 130px;
     
   
 
@@ -52,18 +53,68 @@ body {
  text-align: center;
   }
 /* bare de recheche */
+.icone1 {
+    background-color:rgb(222, 224, 224);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 40px;
+    width: 40px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+
+
+    
+    }
+ .searchTerm {
+    width: 100%;
+    border: 2px solid rgb(214, 213, 213);
+    border-right: none;
+    padding: 8px;
+    height: 20px;
+    outline: none;
+    }
  
+ .searchButton {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #0b43bb;
+    background: #0b43bb;
+    text-align: left;
+    color: #eeeeee;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+    text-align: center;
+    }
+    .wrap {
+    width: 95%;
+     margin-left: 12px;
+    
+     } 
     
 /* filtre  */ 
+.position {
+    display:flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
 
 .resolu {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 0px;
 }
 .fil { 
     font-family: sans-serif;
     margin-top: 50px;
-    margin: 5%;
+   
   
   
 
@@ -78,6 +129,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 0px;
        
         
    }
@@ -85,15 +137,89 @@ body {
   .searchButton1 {
       width: 15px;
   }
+  /* style bouton */
+
+
+.search1 {
+    display: flex;
+    justify-content: flex-start ;
+  
+  
+    
+    }
+  
+    
+  .searchButton1 {
+    width: 175px;
+    height: 40px;
+    border: 1px solid #b4b4b459;
+    background: #fdfdfd;
+    text-align:center;
+    color: #000000e5;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 15px;
+    margin-right: 10px;
+    
+    
+   
+   
+    }
+  
+    .searchButton2 {
+      width: 220px;
+      height: 40px;
+      border: 1px solid #b4b4b459;
+      background: #fdfdfd;
+      text-align:center;
+      color: #000000e5;
+      border-radius: 50px 50px 50px 50px;
+      font-size: 15px;
+      margin-right: 10px;
+      
+    }
+  
+   
+    
+    
+    .icone2 {
+        background-color:rgba(100, 140, 194, 0.363);
+       border-radius: 100%;
+        height: 40px;
+        width: 40px;
+        color: rgb(4, 48, 168);
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       position: absolute;
+       
+       
+    }
+
+     /* regroupement*/
+  .regroup {
+    display: flex;
+    flex-direction: column;
+   
+
+     }
+     
 
 /* bloc1 */ 
 .bloc1 {
-    width: 102%;
-    height: 750px;
-    background-color: rgb(233, 231, 231);
-    margin-top: 15px;
+    width: 100%;
+    height: 750px ;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 225, 225);
+    margin: 0;
+    border-radius: 0px;
+    
+   
    
 }
+
+
 .sousitre2 { 
     margin-left: 30px;
     font-family: sans-serif;
@@ -107,7 +233,9 @@ body {
 .cartouche {
  display: flex;
  flex-wrap: wrap;
- margin-left: 2%;
+ margin-left: 5%;
+ 
+
  
   
 }
@@ -157,8 +285,19 @@ body {
 
 /* bloc2 */
 
+.bloc2 {
+    background-color: rgb(255, 255, 255);
+    display:flex ;
+    flex-direction: column;
+    height:1950px;
+    width: 100%;
 
-
+   
+}
+.contenent {
+    display: flex;
+    flex-direction: column;
+}
 
 .card2 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -194,12 +333,7 @@ body {
     margin-left: 5%;
  }
 
- .cartouche1 {
-   display: flex;
-   flex-wrap: wrap;
-   margin-left: 2%;
  
- }
 
  .affiche {
     margin-top: 15px;
@@ -215,7 +349,8 @@ body {
 
  /* activiter */ 
 
- .card3 {
+ 
+.card3 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     height: 150px;
@@ -253,12 +388,113 @@ body {
      margin-left: 2%;
  }
 
+
+
+
+
+
+
+
+
+
+ .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 150px;
+    width: 320px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3rem;
+    margin-bottom: 20px;
+  
+ 
+    
+   
+}
+
+
+ .image4 {
+     border-top-right-radius: 25px;
+     border-top-left-radius: 25px;
+     object-fit: cover;
+   
+     width: 320px;
+     height: 100px;
+
+ }
+ .cartouche4 {
+     margin-left: 2%;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .card4 {
+     margin-left: 2%;
+ }
+
+ .container4 {
+     margin-left: 2%;
+ }
+
+
+
+
+ .card5 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 150px;
+    width: 320px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3rem;
+    margin-bottom: 20px;
+  
+ 
+    
+   
+}
+
+
+
+.image5 {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    object-fit: cover;
+  
+    width: 320px;
+    height: 100px;
+
+}
+.cartouche5 {
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card5 {
+    margin-left: 2%;
+}
+
+.container5 {
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
  /* base de page */ 
 
  .fin_de_page {
     background-color: rgb(233, 231, 231);
     height: 520px;
-    width: 102%;
+    width: 102%; 
+    display: flex;
+    flex-direction: column;
    
     
  }
@@ -266,6 +502,7 @@ body {
      display: flex;
      flex-direction: column;
     margin: 5%;
+
  }
 
  a {
