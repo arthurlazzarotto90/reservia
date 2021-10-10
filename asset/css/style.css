@@ -70,8 +70,9 @@
 /*barre_de_recherche*/
 
 .recherche {
-    padding-left: 45px;
+    width: 435px;
     display: flex;
+    justify-content: flex-end;
 }
 .point_recherche {
    background-color:rgb(214, 213, 213); 
@@ -111,18 +112,23 @@
 }
 /*filtre*/
 .filtre {
-  display: flex;
-  width: 1038px;
-  justify-content: space-around;
-  padding-top: 50px;
-   
-   
+  display: flex; 
+  padding-top: 50px;   
 }
 
 .titre_fitres{
     margin: 0;
     padding-top: 10px;
-    padding-left: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.boutton {
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 .boutton_icone {
@@ -132,11 +138,11 @@
     display: flex;
     padding-right: 1rem;
     border-radius: 25px 25px 25px 25px;
-    display: flex;
     justify-content: space-between;
-   
+    
 
 }
+
 .icone_bleus {
     display: flex;
     justify-content: center;
@@ -145,31 +151,37 @@
     border-radius: 100%;
     color: rgb(31, 113, 219);
     background-color: rgba(188, 209, 247, 0.603);
-    padding-top: 0.8rem;
+    padding-top: 0.8rem; 
 }
 .texte_bouton {
   display: flex;
-  justify-content: center;
   text-decoration:none;
   color: #000;
   font-weight: bold;
   cursor: pointer;
   padding-top: 0.8rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
+
 }
 
 /*soutire*/ 
 .info {
     display: flex;
-    justify-content: space-between;
-    padding-left: 3rem;
-    width: 550px;
-    height: 35px ;
-    margin-top: 3rem;
+    padding-top: 50px; 
+   
 } 
 .para_info {
     margin: 0;
     padding-top: 9px;
+    width:  440px;
+    display: flex;
+    justify-content: flex-end;
+}
+.icone_info_plasement {
+    width: 80px;
+    display:flex;
+    justify-content: flex-end;
+
 }
 
 .icone_info {
@@ -183,3 +195,4 @@
     color: rgb(31, 113, 219);
   
 }
+
