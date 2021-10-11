@@ -209,7 +209,7 @@
 
  }
  .bloc_titre {
-     padding-left: 25px;
+     padding-left: 50px;
  }
  
 
@@ -220,22 +220,33 @@
     height: 625px;
     background-color:rgb(214, 213, 213); 
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /*cards_alinement*/
 .cards_alinement{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+.dimention {
+    height: 235px;
+    
 }
 
+
 .card_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    height: 200px;
+    transition: .3s;
+    height: 230px;
     width: 240px;
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
-    padding: 0.3rem;
-    margin-bottom: 15px;  
+    border-color: aliceblue;
+    
  }
  
  
@@ -244,19 +255,46 @@
      border-top-left-radius: 25px;
      object-fit: cover;
      width: 225px;
-     height: 105px;
+     height: 128px;
+    
  
  }
  .container_1 {
-    margin-left: 5%;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-evenly;
+   text-align:left;
+   margin-left:10px;
+   margin-top: 10px;
+ 
    
  }
+ h4 {
+     margin: 0;
+    height: 23px; 
+ }
+
+ p {
+     margin: 0;
+     height: 23px; 
+ }
+   .icone_etoile {
+       display: flex;
+       color: rgb(18, 83, 223);
+   }
+
+    .etoile_grise {
+        color: rgb(197, 191, 191);
+        
+    }
+   
 
  .afiche {
      color: #000;
      text-decoration:none;
      padding-left: 50px;
  }
+
 
 /*deuxime_bloc*/
 .bloc_2 {
