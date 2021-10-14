@@ -6,19 +6,35 @@
 .img_logo { 
     padding-left: 45px;
     margin-top: 30px;
+    
  
 }
 
+
 .menu_logo {
   display: grid;
-  grid-template-columns: 60% 30%;
+  grid-template-columns: 90% 10% 10%;
   
+  
+  
+
+  
+}
+.pa {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.ca {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu {
     display: flex; 
     justify-content: space-around;
- 
+    
    
 }
 .menu_1  {
@@ -60,7 +76,7 @@
 /*titre*/
 
 .titre {
-    width: 525px;
+    width: 520px;
     display: flex;
     justify-content: flex-end;
     
@@ -94,6 +110,10 @@
     border: 2px solid rgb(214, 213, 213);
     border-right: none;
     outline: none;
+    
+}
+::placeholder {
+    color: #000;
 }
 
  
@@ -172,6 +192,8 @@
 .info {
     display: flex;
     padding-top: 50px; 
+    width: 570px;
+    justify-content: flex-end;
    
 } 
 .para_info {
@@ -185,7 +207,7 @@
     width: 80px;
 
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 
 }
 
@@ -263,6 +285,8 @@
     border-color: aliceblue;
     margin-top: 15px;
     flex-wrap: wrap;
+    color: #000;
+    text-decoration:none;
  }
  
  
@@ -357,7 +381,8 @@
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(247, 248, 248);
-    
+    color: #000;
+    text-decoration:none;
 
     
  }
@@ -479,7 +504,7 @@
 .container_3 {
    padding-left: 15px;
    padding-top: 5px;
-}
+    }
 
 .texte_style {
     color: #000;
@@ -513,12 +538,36 @@
    
  }
  
- a {
+ .pro {
      color: rgb(129, 122, 122);
-    font-family: sans-serif;
     text-decoration:none;
      margin: 1%;
+     color: #000;
+     text-decoration:none;
+    
  }
- h4 {
-    font-family: sans-serif;
- }
+     
+
+
+
+/*responsive*/ 
+@media screen and (max-width: 630px){
+  /*tete_de_page*/  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
