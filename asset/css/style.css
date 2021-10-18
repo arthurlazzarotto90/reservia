@@ -347,12 +347,13 @@ a.bouton:hover {
 
 .bloc_1 {
     height: auto;
-    width: 850px;
+    width: 860px;
     background-color:rgb(236, 236, 236); 
     border-radius: 25px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 
     
     
@@ -471,24 +472,26 @@ a.bouton:hover {
   
 
 .bloc_2 {
-    width: px;
     height: auto;
     border-radius: 25px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+   
     flex-wrap: wrap; 
+  
 }
 
 .marge
-{
-    width: 400px;
+{  
+
+    width: 450px;
     min-width: 340px;
     border-radius: 25px;
     display:flex;
     justify-content: center;
     background-color:rgb(236, 236, 236); 
-    padding-bottom: 35px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 } 
 
 
