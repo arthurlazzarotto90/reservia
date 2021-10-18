@@ -130,11 +130,13 @@ a.bouton:hover {
     border: 2px solid rgb(214, 213, 213);
     border-right: none;
     outline: none;
+   
     
 }
 ::placeholder {
     color: #000;
 }
+/*responsive_bouton*/
 
 @media screen and (min-width: 630px) {
 .recherche_bouton {
@@ -145,22 +147,35 @@ a.bouton:hover {
     border-radius: 0 10px 10px 0;
     font-size: 20px;
     text-align: center;
-    border: none;
+    border:  rgb(3, 70, 214);
     cursor: pointer;
+   
+   
+  
     
 }
+
+
   .recherche_bouton_1 {
       display: none;
+  }
+  .text_recherche_1 {
+    display: none;
+    border: solid 2px  rgb(214, 213, 213);
+    border-right: none;
+    height: 42px;
+ 
   }
 
  }
 
-
+/*fin_de_responsive_bouton*/
 .recherche_bouton:hover {
     color: rgb(179, 177, 177);
     
 }
 .point_recherche {
+    height: 40px;
     text-align: center;
     padding-top: 10px;
 }
@@ -441,27 +456,43 @@ a.bouton:hover {
 /*cards_2*/
 .populair {
     display: flex;
-    justify-content: space-between; 
+
       
   }
 
   .icone_graphique {
      padding-top: 20px; 
+     padding-left: 100px;
+  
   }
+ 
+  
+
+  
 
 .bloc_2 {
-    
+    width: px;
     height: auto;
     border-radius: 25px;
-    display: grid;
-    grid-template-rows: 10% 25% 25%;
+    display: flex;
+    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap; 
 }
 
+.marge
+{
+    width: 400px;
+    min-width: 340px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: center;
+    background-color:rgb(236, 236, 236); 
+    padding-bottom: 35px;
+} 
 
+
+ 
 .card_2 {
     display: flex;
     justify-content: space-between;
@@ -505,15 +536,16 @@ a.bouton:hover {
     border-top:solid 35px rgb(255, 255, 255);
 
 }
-.marge
-{
-    width: 400px;
-    min-width: 340px;
-    border-radius: 25px;
-    display:flex;
-    justify-content: center;
-    background-color:rgb(236, 236, 236); 
+
+  
+
+.tablet {
+    display: flex;
+   
+      
 }
+ 
+
 
 /*activiter*/ 
 .titre_bloc_3 {
@@ -736,10 +768,18 @@ a.bouton_5:hover {
        margin-top: 15px;
    }
   .titre {
-    width: auto;
-    text-align:center;
+    width:250px;
+    text-align: center;
+    
+    
+
    }
- 
+   .centre{
+       width: 100%;
+       height: px;
+       display: flex;
+       justify-content: center;
+   } 
 
    .soustitre {
     width: auto;
@@ -748,6 +788,9 @@ a.bouton_5:hover {
     margin-bottom: 25px;
 }
    /*barre_de_recherche*/
+   .border_1{
+       display: none;
+   }
    .recherche {
     width: auto;
     display: flex;
@@ -764,11 +807,12 @@ a.bouton_5:hover {
 
 .text_recherche {
     width: 210px;
-   
-    border: none;
-   
+   border: none;
 }
 
+.text_recherche_1 {
+    display: none;
+}
 
 
 
@@ -789,7 +833,7 @@ a.bouton_5:hover {
     border-radius: 15px 15px 15px 15px;
     font-size: 20px;
     text-align: center;
-    border: none;
+    border:  rgb(3, 70, 214);
     cursor: pointer;
 }
 .recherche_bouton_1:hover {
@@ -860,7 +904,7 @@ a.bouton_5:hover {
     background-color: white;   
  }
 
-
+ 
  
  .card_1 {
     height: 210px;
@@ -880,10 +924,13 @@ a.bouton_5:hover {
     
  
  }
- .marge{
+
+ .marge {
    width: 100%;
    border-radius: 0;
+   padding-bottom: 15px;
  }
+
   p {
       height: 18px; 
   }
