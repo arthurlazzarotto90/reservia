@@ -11,7 +11,7 @@
 }
 a.bouton_1:hover {
     border-top: solid 3px;
-    color: rgb(3, 70, 214);
+    color: #0065Fc;
     padding-top: 50px;
     padding: 50px;
 
@@ -19,7 +19,7 @@ a.bouton_1:hover {
 }
 a.bouton:hover {
    border-top: solid 3px;
-   color: rgb(3, 70, 214);
+   color: #0065Fc;
    padding-top: 50px;
    padding: 50px;
     }
@@ -454,6 +454,7 @@ a.bouton:hover {
 
 
 
+
 /*cards_2*/
 .populair {
     display: flex;
@@ -484,9 +485,8 @@ a.bouton:hover {
 
 .marge
 {  
-
     width: 450px;
-    min-width: 340px;
+    height: auto;
     border-radius: 25px;
     display:flex;
     justify-content: center;
@@ -652,7 +652,7 @@ a.bouton:hover {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    
  
    
     
@@ -683,7 +683,30 @@ a.bouton:hover {
 
 
 /*responsive*/ 
-@media screen and (max-width: 630px){
+
+@media screen and (max-width: 1400px) {
+    .line {
+       display: flex;
+       justify-content: space-around;
+       width: 100%;
+    }
+    .populair {
+        width: 100%;
+        display: flex;
+       justify-content: space-evenly;
+    }
+    .marge {
+        width: 860px;
+    }
+    .fin_de_page {
+        display: flex;
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 755px){
   /*tete_de_page*/  
   body {
       margin: 0;
@@ -923,13 +946,33 @@ a.bouton_5:hover {
     
  
  }
+ .bloc_2 {
+     display: flex;
+     flex-wrap: wrap;
+ }
 
  .marge {
    width: 100%;
    border-radius: 0;
    padding-bottom: 15px;
+  
+ }
+ .populair {
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .line {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    width: auto; 
+   
  }
 
+.card_2 {
+    margin-top: 15px;
+}
   p {
       height: 18px; 
   }
@@ -970,10 +1013,16 @@ a.bouton_5:hover {
  }
  footer {
     padding-left: 15px;
+    display: flex;
+    flex-direction: column;
  }
   
   }
 
+
+ 
+   
+    
 
 
 
