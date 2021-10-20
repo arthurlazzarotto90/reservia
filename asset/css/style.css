@@ -416,6 +416,10 @@ a.bouton:hover {
     height: 23px; 
     color: #000;
  }
+ 
+ .nom {
+    margin-bottom: 15px; 
+ }
 
  p {
      margin: 0;
@@ -424,8 +428,6 @@ a.bouton:hover {
    .icone_etoile {
        display: flex;
        color: rgb(18, 83, 223);
-     
-       
         border-top:solid 15px rgb(255, 255, 255);
     }
  
@@ -494,7 +496,10 @@ a.bouton:hover {
     padding-bottom: 15px;
     margin-bottom: 15px;
 } 
-
+.line {
+   
+    
+}
 
  
 .card_2 {
@@ -540,7 +545,10 @@ a.bouton:hover {
 
 }
 
-  
+.espace {
+    height: 25px;
+}
+
 
 
  
@@ -702,6 +710,9 @@ a.bouton:hover {
         display: flex;
         width: 100%;
     }
+    .espace {
+        display: none;
+    }
 
 }
 
@@ -798,7 +809,7 @@ a.bouton_5:hover {
    }
    .centre{
        width: 100%;
-       height: px;
+      
        display: flex;
        justify-content: center;
    } 
@@ -1016,7 +1027,10 @@ a.bouton_5:hover {
     display: flex;
     flex-direction: column;
  }
-  
+  .propo
+    {
+        width: 100%;
+    }
   }
 
 
