@@ -156,6 +156,7 @@ a.bouton:hover {
 }
 
 
+
   .recherche_bouton_1 {
       display: none;
   }
@@ -859,8 +860,7 @@ a.bouton_5:hover {
     
 }
 .recherche_bouton_1 {
-    height: 50px;
-    width: 50px;
+   
     background-color:rgb(3, 70, 214) ;
     color: rgb(252, 252, 252);
     border-radius: 15px 15px 15px 15px;
@@ -868,10 +868,15 @@ a.bouton_5:hover {
     text-align: center;
     border:  rgb(3, 70, 214);
     cursor: pointer;
+    padding: 14px;
 }
 .recherche_bouton_1:hover {
     color: rgb(179, 177, 177);
     
+}
+#GPS {
+   padding: 5px;
+  
 }
 
 .recherche_bouton {
