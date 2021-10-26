@@ -497,10 +497,10 @@ a.bouton:hover {
     padding-bottom: 15px;
     margin-bottom: 15px;
 } 
-.line {
+
    
     
-}
+
 
  
 .card_2 {
@@ -859,6 +859,7 @@ a.bouton_5:hover {
 
     
 }
+
 .recherche_bouton_1 {
    
     background-color:rgb(3, 70, 214) ;
@@ -892,10 +893,7 @@ a.bouton_5:hover {
 
 /*filtre*/
 .res {
-    width: auto;
-    display: flex; 
-    flex-wrap: wrap;
-
+   width: auto;
 }
 .filtre {
     width: auto;
