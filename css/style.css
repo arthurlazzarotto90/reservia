@@ -51,9 +51,7 @@ a.bouton:hover {
    
 }
 
-.menu_1 {
- padding-top: px;
-}
+
 @media screen and (min-width: 630px){
     .ligne {
         display: none;
