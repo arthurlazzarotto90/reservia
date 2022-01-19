@@ -1,62 +1,46 @@
 * { box-sizing: border-box  }
 * {font-family: 'Nanum Gothic', sans-serif; }
 
+
+
 /*tete de page */
 /*menu_logo*/
-.img_logo { 
+.logo { 
     padding-left: 45px;
-    margin-top: 30px;
-   
- 
+    margin-top: 20px;
+    margin-right: 50%;
 }
-a.bouton_1:hover {
+
+
+
+.bouton_1:hover {
     border-top: solid 3px;
     color: #0065Fc;
-    padding-top: 50px;
-    padding: 50px;
-
+ 
+    
+    
 
 }
-a.bouton:hover {
+.bouton:hover {
    border-top: solid 3px;
    color: #0065Fc;
-   padding-top: 50px;
-   padding: 50px;
+  
+
+ 
     }
 
 .menu_logo {
   
  display: flex;
  justify-content: space-between;
-}
-.menu_4
-{
- display: flex;
- justify-content: space-evenly;
- flex-direction: row-reverse;
- 
+ flex-wrap: wrap;
 
 }
 
 
-.menu { 
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 50px;
-
-}
-
-.menu_3 {
-    padding-top: 50px;
-   
-}
 
 
-@media screen and (min-width: 630px){
-    .ligne {
-        display: none;
-    }
-}
+
 
 
 /*style bouton*/
@@ -65,7 +49,7 @@ a.bouton:hover {
 .bouton {
     color: rgb(185, 180, 180);
     text-decoration:none;
-   
+    padding: 30px;
   
 }
 
@@ -73,6 +57,7 @@ a.bouton:hover {
     color: rgb(185, 180, 180);
     text-decoration: none;
     margin-left: 5rem;
+    padding: 30px;
 }
 
 
@@ -80,7 +65,7 @@ a.bouton:hover {
 .bouton_2 {
     color: rgb(3, 70, 214);
     text-decoration:none;
-    padding-top: 150px;
+    padding: 30px;
      margin-left: 5rem;
 
     
@@ -137,6 +122,10 @@ a.bouton:hover {
 /*responsive_bouton*/
 
 @media screen and (min-width: 755px) {
+
+
+
+
 .recherche_bouton {
     width: 150px ;
     height: 40px;
@@ -169,6 +158,9 @@ a.bouton:hover {
  }
 
 /*fin_de_responsive_bouton*/
+ 
+
+
 .recherche_bouton:hover {
     color: rgb(179, 177, 177);
     
@@ -327,32 +319,31 @@ a.bouton:hover {
      
      display:flex;
      margin-top: 50px; 
-     justify-content: space-evenly;
+     justify-content:space-around;
      flex-wrap: wrap;
-     
-    
 
  }
  .bloc_titre {
      
-     width: 280px;
+     width: 245px;
     display: flex;
     justify-content: flex-end; 
  }
- 
+
 
 /*premier_bloc*/
 
 
 .bloc_1 {
     height: auto;
-    width: 860px;
+    width:960px;
     background-color:rgb(236, 236, 236); 
     border-radius: 25px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+  
 
     
     
@@ -441,7 +432,7 @@ a.bouton:hover {
      padding: 15px;
      color: #000;
      text-decoration:none;
-     width: 140px;
+     width: 130px;
      display: flex;
      justify-content: flex-end; 
  }
@@ -459,6 +450,8 @@ a.bouton:hover {
 /*cards_2*/
 .populair {
     display: flex;
+    justify-content: space-around;
+    width: 450px;
 
       
   }
@@ -486,7 +479,7 @@ a.bouton:hover {
 
 .marge
 {  
-    width: 450px;
+    width: 500px;
     height: auto;
     border-radius: 25px;
     display:flex;
@@ -555,7 +548,7 @@ a.bouton:hover {
 
 /*activiter*/ 
 .titre_bloc_3 {
-    width: 250px;
+    width: 230px;
     display: flex;
     justify-content: flex-end; 
 }
@@ -564,7 +557,7 @@ a.bouton:hover {
 
 .card_3 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 15px;
     
@@ -724,39 +717,56 @@ a.bouton:hover {
 
 @media screen and (max-width: 755px){
   /*tete_de_page*/  
+
+  .menu_logo {
+      display: flex;
+      flex-wrap: wrap;
+     
+  }
+  .logo {
+      order: 1;
+      margin-right: 0;
+  }
+  .bouton {
+      order: 3;
+      margin: 0px;
+      border-bottom: solid 3px rgb(214, 213, 213);
+      width:50%;
+      padding: 0px;
+      text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  .bouton_1 {
+      order: 4;
+     margin: 0px;
+      border-bottom: solid 3px  rgb(214, 213, 213);
+     width: 50%;
+     padding: 0px;
+     text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+  }
+  .bouton_2 {
+      order: 2;
+  }
+  
+  .bouton:hover {
+    border-top:  0px;
+    border-bottom: solid 3px  #0065Fc;
+  }
+  .bouton_1:hover {
+    border-top:  0px;
+    border-bottom: solid 3px  #0065Fc;
+}
+ 
   body {
       margin: 0;
       padding: 0;
       width: 100%;
   }
 
-
-.img_logo { 
-    padding: 0;
-  padding-left: 2rem;
-   
- 
-}
-.menu_3 {
-    padding: 0;
-    padding-top: 3rem;
-    padding-right: 1rem;
-    
-  
-  }
-  .bouton_2 {
-    margin-left: 0rem;
-}
- 
-  .menu {
-      display: none;
-  }
-  
-.menu_logo {
-    display: flex;
-    width: auto;
-    
-  }
 
 .ligne {
    display: flex;
