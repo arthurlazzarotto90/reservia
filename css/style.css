@@ -14,14 +14,7 @@
 
 
 
-.bouton_1:hover {
-    border-top: solid 3px;
-    color: #0065Fc;
- 
-    
-    
 
-}
 .bouton:hover {
    border-top: solid 3px;
    color: #0065Fc;
@@ -139,10 +132,10 @@
 
 
 
-  .recherche_bouton_1 {
+  .recherche_bouton_loup {
       display: none;
   }
-  .text_recherche_1 {
+  .text_recherche_loup {
     display: none;
     border: solid 2px  rgb(214, 213, 213);
     border-right: none;
@@ -876,7 +869,7 @@ a.bouton_5:hover {
    border: none;
 }
 
-.text_recherche_1 {
+.text_recherche_loup {
     display: none;
 }
 
@@ -892,7 +885,7 @@ a.bouton_5:hover {
     
 }
 
-.recherche_bouton_1 {
+.recherche_bouton_loup {
    
     background-color:rgb(3, 70, 214) ;
     color: rgb(252, 252, 252);
@@ -903,7 +896,7 @@ a.bouton_5:hover {
     cursor: pointer;
     padding: 14px;
 }
-.recherche_bouton_1:hover {
+.recherche_bouton_loup:hover {
     color: rgb(179, 177, 177);
     
 }
