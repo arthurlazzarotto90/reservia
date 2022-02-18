@@ -178,12 +178,13 @@
     width: 100px;
     display: flex;
     justify-content: flex-end;
+    margin-right: 25px;
     
 }
 .boutton {
-    width: 1000px;
+    width: 800px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 1rem;
    
@@ -191,13 +192,13 @@
 
 .res {
     display: flex;
-    width: 550px;
-    justify-content: space-evenly;
+    width: 430px;
+    justify-content: space-between;
     flex-wrap: wrap;
   
     
 }
-.boutton_icone_2 {
+.boutton_icone_ro {
     border: solid 2px rgba(217, 227, 245, 0.603);
     width: auto;
     height: 46px;
@@ -209,7 +210,7 @@
     margin-top: 1rem;
 
 }
-.boutton_icone_1 {
+.boutton_icone_ani {
     border: solid 2px rgba(217, 227, 245, 0.603);
     width: auto;
     height: 46px;
@@ -766,17 +767,7 @@
     padding-bottom: 25px;
     padding-top: 25px;
   }
-  .bouton_1 {
-      order: 4;
-     margin: 0px;
-      border-bottom: solid 3px  rgb(214, 213, 213);
-     width: 50%;
-     padding: 0px;
-     text-align: center;
-    padding-bottom: 25px;
-    padding-top: 25px;
 
-  }
   .bouton_ins {
       order: 2;
       margin-top: 25px;
@@ -935,19 +926,32 @@ a.bouton_5:hover {
 
 
 /*filtre*/
+
+
+
+
 .res {
    width: auto;
+   display: flex;
+   justify-content: space-around;
 }
 .filtre {
     width: auto;
     padding: 0;
-}
-.boutton_icone_1{
     
-    margin-right: 30%;
 }
-.boutton_icone_2{
-    margin-right: 43%;
+.boutton_icone_ani{
+    
+    margin-right: 34%;
+}
+.boutton_icone_ro{
+    margin-right: 47%;
+}
+
+.boutton {
+    display: flex;
+    justify-content: space-around;
+
 }
 
 /*soutire*/ 
