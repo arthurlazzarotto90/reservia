@@ -256,11 +256,11 @@
      
     }
 
-.boutton_icone_1:hover {
+.boutton_icone_ani:hover {
         background: rgba(188, 209, 247, 0.603); 
          
         } 
-.boutton_icone_2:hover {
+.boutton_icone_ro:hover {
          background: rgba(188, 209, 247, 0.603); 
              
             }
@@ -326,7 +326,7 @@
 /*premier_bloc*/
 
 
-.bloc_1 {
+.bloc_her {
     height: auto;
     width:800px;
     background-color:rgb(236, 236, 236); 
@@ -353,7 +353,7 @@
 }
 
 
-.card_1 {
+.card_her {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -369,12 +369,12 @@
     color: #000;
     text-decoration:none;
  }
- .card_1:hover {
+ .card_her:hover {
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
  }
  
  
- .image_1 {
+ .image_her {
      border-top-right-radius: 25px;
      border-top-left-radius: 25px;
      object-fit: cover;
@@ -385,7 +385,7 @@
     
  
  }
- .container_1 {
+ .container_her {
    display: flex;
    flex-direction: column;
    text-align:left;
@@ -459,7 +459,7 @@
 
   
 
-.bloc_2 {
+.bloc_popu {
   
     border-radius: 25px;
     display: flex;
@@ -489,7 +489,7 @@
 
 
  
-.card_2 {
+.card_popu {
     display: flex;
     justify-content: space-between;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
@@ -504,12 +504,12 @@
 
  }
 
- .card_2:hover{
+ .card_popu:hover{
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2)
  }
  
  
- .image_2 {
+ .image_popu {
      border-bottom-left-radius: 25px;
      border-top-left-radius: 25px;
      object-fit: cover;
@@ -519,13 +519,13 @@
  
  }
 
- .container_2 {
+ .container_popu {
    display: flex;
    flex-direction: column;
    border:solid 15px rgb(255, 255, 255);
    border-radius: 25px;
  }
- .icone_etoile_2 {
+ .icone_etoile_popu {
     display: flex;
     color: rgb(18, 83, 223);
     border-top:solid 35px rgb(255, 255, 255);
@@ -543,7 +543,7 @@
 
 /*activiter*/ 
 
-.titre_bloc_3 {
+.titre_bloc_ac {
     width: 220px;
     display: flex;
     justify-content: flex-end; 
@@ -551,7 +551,7 @@
 
 
 
-.card_3 {
+.card_ac {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -571,7 +571,7 @@
 
 
 /*style_cards_3*/
-.card_3_1 {
+.card_ac_grand {
    width: 300px;
    height: 440px ;
    border-radius: 25px;
@@ -580,7 +580,7 @@
    margin-top: 15px;
    
 }
-.image_3 {
+.image_ac_grand {
     width: 300px;
     height: 390px;
     border-radius: 25px 25px 0 0;
@@ -591,7 +591,7 @@
 
 
 
- .card_3_3 {
+ .card_ac_petite {
      width: 300px;
      height: 240px;
      border-radius: 25px;
@@ -606,14 +606,14 @@
    
 }
 
- .image_3_2 {
+ .image_ac_petite {
      width: 300px;
      height: 200px;
      border-radius: 25px 25px 0 0;
      object-fit: cover;
  }
 
- .card_3_2 {
+ .card_ac_midel {
     width: 300px;
     height: 160px;
     border-radius: 25px;
@@ -622,13 +622,13 @@
     margin-top: 15px;
 }
 
-.image_3_1 {
+.image_ac {
     width: 300px;
     height: 120px;
     border-radius: 25px 25px 0 0;
     object-fit: cover;
 }
-.container_3 {
+.container_ac {
    padding-left: 15px;
    padding-top: 5px;
    
@@ -719,12 +719,12 @@
         margin-top: 25px;
     }
   
-    .card_2 {
+    .card_popu {
         margin-top: 10px;
         width: 350px;
     }
 
-    .image_2 {
+    .image_popu {
         width: 125px;
     }
 
@@ -977,21 +977,21 @@ a.bouton_5:hover {
 .afiche {
     width: 131px;
 }
-.bloc_1 {
+.bloc_her {
    width: 100%;
     background-color: white;   
  }
 
  
  
- .card_1 {
+ .card_her {
     height: 210px;
     width: 340px;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
    
  }
 
- .image_1 {
+ .image_her {
      border-top-right-radius: 25px;
      border-top-left-radius: 25px;
      object-fit: cover;
@@ -1002,7 +1002,7 @@ a.bouton_5:hover {
     
  
  }
- .bloc_2 {
+ .bloc_popu {
      display: flex;
      flex-wrap: wrap;
  }
@@ -1028,7 +1028,7 @@ a.bouton_5:hover {
  .ligne {
      display: none;
  }
-.card_2 {
+.card_popu {
     margin-top: 15px;
     width: 350px;
   
@@ -1036,37 +1036,37 @@ a.bouton_5:hover {
   p {
       height: 18px; 
   }
-.titre_bloc_3 {
+.titre_bloc_ac {
     width: 200px;
 }
- .card_3_3 {
+ .card_ac_petite {
     width: 340px;
     height: 210px; 
 }
-.image_3_2 {
+.image_ac_petite {
     width: 340px;
     height: 150px;
     
 }
-.card_3_2 {
+.card_ac_midel {
     width: 340px;
     height: 210px;
    
 }
 
-.image_3_1 {
+.image_ac_grand {
     width: 340px;
     height: 150px;
   
 }
 
-.image_3 {
+.image_ac {
     width: 340px;
     height: 150px;
    
 }
 
-.card_3_1 {
+.card_ac_grand {
     width: 340px;
     height: 210px ;
    
