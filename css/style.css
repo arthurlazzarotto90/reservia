@@ -268,14 +268,14 @@
 .info {
     display: flex;
     padding-top: 50px; 
-    width: 570px;
+    width: 510px;
     justify-content: flex-end;
    
 } 
 .para_info {
     margin: 0;
     padding-top: 9px;
-    width:  440px;
+    width:  395px;
     display: flex;
     justify-content: flex-end;
 }
